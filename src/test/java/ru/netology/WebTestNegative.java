@@ -54,6 +54,7 @@ public class WebTestNegative {
         assertEquals("Поле обязательно для заполнения", driver.findElement(By.cssSelector(".input_invalid[data-test" +
                 "-id=phone] .input__sub")).getText().trim());
     }
+
     @Test
     public void shouldSendFormNegativeName1() {
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79000000000");
