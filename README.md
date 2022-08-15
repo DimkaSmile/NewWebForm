@@ -1,1 +1,1 @@
-[![Build status]
+[![Build status](https://ci.appveyor.com/api/projects/status/9g35uud1td4axqgk/branch/master?svg=true)](https://ci.appveyor.com/project/DimkaSmile/newwebform/branch/master)
