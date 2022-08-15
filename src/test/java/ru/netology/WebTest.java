@@ -37,7 +37,7 @@ public class WebTest {
 
     @Test
     public void shouldSendForm() {
-        driver.get("http://localhost:9999");
+        driver.get("http://localhost:7777");
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иванов Иван");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79000000000");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
